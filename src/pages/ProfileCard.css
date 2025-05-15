@@ -1,0 +1,46 @@
+.profile-card {
+    width: 200px;
+    height: 268px;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 280px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.profile-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+
+.profile-card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.profile-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.profile-card button {
+  margin-top: 10px;
+  background-color: #3b82f6;
+  color: white;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-card button:hover {
+  background-color: #2563eb;
+}

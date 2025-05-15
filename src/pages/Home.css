@@ -1,0 +1,19 @@
+.home-container {
+  padding: 16px;
+}
+
+.home-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.returnTop{
+    position: fixed;
+    bottom: 1px;
+    right: 10px;
+    text-decoration: none;
+    font-size: 80px;
+}
+.returnTop a{
+    text-decoration: none;
+}
