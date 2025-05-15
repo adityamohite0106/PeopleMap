@@ -1,12 +1,34 @@
-# React + Vite
+# ProfileMap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ProfileMap** is a React-based web application that displays a list of user profiles, allows search filtering, and shows each user's location using a map. It’s ideal for showcasing team members, users, or contacts with basic profile details and a geographic context.
 
-Currently, two official plugins are available:
+## 🔍 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display user profiles in card format
+- Real-time search filtering by name
+- Detailed profile view with contact information
+- Map integration to visualize user location
+- Clean and responsive UI using Tailwind CSS
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **ReactJS** – Frontend framework
+- **React Router** – For routing and navigation
+- **Tailwind CSS** – Styling
+- **Map View** – Google Maps or any alternative map embed
+- **RandomUser API** – Used for profile images
+
+## 📂 Folder Structure
+
+/src
+├── components
+│ ├── ProfileCard.jsx
+│ ├── ProfileList.jsx
+│ └── MapView.jsx
+├── pages
+│ ├── Home.jsx
+│ └── ProfileDetail.jsx
+├── data.js
+└── App.jsx
+
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/3579374b-6b8e-4766-938f-9930d3559f76" />
